@@ -26,3 +26,7 @@ Start server
 ```bash
 poetry run jupyter lab
 ```
+
+## Viewing the notebook
+
+If you don't want to run it, you can see the output @ https://nbviewer.org/github/mneedham/ibm-clickhouse-langchain/blob/main/App.ipynb
