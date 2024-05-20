@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ibm-langchain"
+version = "0.1.0"
+description = ""
+authors = ["Mark Needham <m.h.needham@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.0"
+langchain-ibm = "^0.1.7"
+sentence-transformers = "^2.7.0"
+ibm-watsonx-ai = "^1.0.4"
+pydantic = "^2.7.1"
+sqlalchemy = "^2.0.30"
+clickhouse-connect = "^0.7.8"
+ipython = "^8.24.0"
+rich = "^13.7.1"
+wget = "^3.2"
+langchain-community = "^0.2.0"
+jupyterlab = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
